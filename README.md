@@ -1,4 +1,70 @@
+dtIMB.DEVcrew
+=======
 
+[![Build Status](https://travis-ci.org/aleph1888/ng-elgg.png?branch=master)](https://travis-ci.org/aleph1888/dtimb.DEVcrew_DECK)
+
+A secure, offline-capable, mobile-first web client for [Elgg](http://elgg.org) built with AngularJS.
+
+Demo
+----
+
+http://aleph1888.github.io/dtimb.DEVcrew_DECK/
+
+Installation
+------
+
+```sh
+npm install -g volo grunt-cli
+git clone https://github.com/aleph1888/dtimb.DEVcrew_DECK
+cd dtimb.DEVcrew_DECK
+npm install
+volo update
+grunt
+```
+
+Note also https://github.com/aleph1888/dtimb.DEVcrew_DECK/issues/1
+
+This will set you up with a local version of the UI.
+
+
+Browser Support
+-----
+Latest 2 versions of modern browsers.
+
+Initial development is only happening on Chrome (desktop and mobile).
+This is to give me freedom to experiment with the cutting edge of web tech.
+As ng-elgg stabilizes and people start using it more seriously,
+more effort will go into cross-browser support.
+
+Modern browsers auto-update, so the long term plan is to only support
+the latest browser versions, including for mobile browsers.
+
+Any cross-browser support efforts should be largely transparent to
+this project and the developers utilizing this project. We want to
+avoid any kind of feature detection or UA detection in the project code itself.
+It's best if that code goes into elgg-grunt so that it is just an
+invisible part of the build process.
+
+Why dtimb.DEVcrew_DECK?
+------
+Because http://ismy.band platform needs a deck to manage band-groups...
+
+### Deck (dtIMB.DEVcrew)
+It is adeck for group-band Client rendered UI    for    http://ismy.band as REST/RPC Api WEBSERVICES platform.
+    
+### Bands
+To join-in, as we call it: band-joining, you just need a band-name and a band-domain...
+i.e.: Meet "La Banda de Aranda", http://tic.ninja band from l'H...
+http://dtimb.ismy.band/devcrew/blog/view/237/is-my-band-portada-seccion-join-in
+
+### So, a band is...?
+What is? / ¿Qué es? IS MY BAND How does it works? / ¿Cómo funciona? en el grupo Is My Band (TIC Ninja) 
+http://dtimb.ismy.band/devcrew/pages/view/236/what-is-%C2%BFque-es-is-my-band-how-does-it-works-%C2%BFcomo-funciona    
+
+
+
+
+FORKING:
 
 ng-elgg
 =======
@@ -94,67 +160,4 @@ beyond just tracking pageviews:
 Each of these can give you really good insights into where your app needs
 improvement and will help you focus on the low-hanging fruit first.
 
-
-dtIMB.DEVcrew
-=======
-
-[![Build Status](https://travis-ci.org/aleph1888/ng-elgg.png?branch=master)](https://travis-ci.org/aleph1888/dtimb.DEVcrew_DECK)
-
-A secure, offline-capable, mobile-first web client for [Elgg](http://elgg.org) built with AngularJS.
-
-Demo
-----
-
-http://aleph1888.github.io/dtimb.DEVcrew_DECK/
-
-Installation
-------
-
-```sh
-npm install -g volo grunt-cli
-git clone https://github.com/aleph1888/dtimb.DEVcrew_DECK
-cd dtimb.DEVcrew_DECK
-npm install
-volo update
-grunt
-```
-
-Note also https://github.com/aleph1888/dtimb.DEVcrew_DECK/issues/1
-
-This will set you up with a local version of the UI.
-
-
-Browser Support
------
-Latest 2 versions of modern browsers.
-
-Initial development is only happening on Chrome (desktop and mobile).
-This is to give me freedom to experiment with the cutting edge of web tech.
-As ng-elgg stabilizes and people start using it more seriously,
-more effort will go into cross-browser support.
-
-Modern browsers auto-update, so the long term plan is to only support
-the latest browser versions, including for mobile browsers.
-
-Any cross-browser support efforts should be largely transparent to
-this project and the developers utilizing this project. We want to
-avoid any kind of feature detection or UA detection in the project code itself.
-It's best if that code goes into elgg-grunt so that it is just an
-invisible part of the build process.
-
-Why dtimb.DEVcrew_DECK?
-------
-Because http://ismy.band platform needs a deck to manage band-groups...
-
-### Deck (dtIMB.DEVcrew)
-It is adeck for group-band Client rendered UI    for    http://ismy.band as REST/RPC Api WEBSERVICES platform.
-    
-### Bands
-To join-in, as we call it: band-joining, you just need a band-name and a band-domain...
-i.e.: Meet "La Banda de Aranda", http://tic.ninja band from l'H...
-http://dtimb.ismy.band/devcrew/blog/view/237/is-my-band-portada-seccion-join-in
-
-### So, a band is...?
-What is? / ¿Qué es? IS MY BAND How does it works? / ¿Cómo funciona? en el grupo Is My Band (TIC Ninja) 
-http://dtimb.ismy.band/devcrew/pages/view/236/what-is-%C2%BFque-es-is-my-band-how-does-it-works-%C2%BFcomo-funciona    
 
